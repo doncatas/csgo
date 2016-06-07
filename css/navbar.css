@@ -1,0 +1,302 @@
+.navbar {
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-brand,
+.navbar-nav li > a,
+.navbar-nav li > a:focus,
+.navbar-nav li > a:active {
+	background: none;
+    line-height: 25px;
+    height: 55px;
+    padding: 0 15px 0 15px;
+    color: #616066;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    height: 26px;
+    margin: 15px 0 14px 0;
+}
+
+.navbar-in li > a,
+.navbar-in li > a:focus,
+.navbar-in li > a:active {
+	background: none;
+    line-height: 50px;
+    height: 55px;
+    padding: 0 15px 0 15px;
+    color: #616066;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+
+.navbar-social li > a,
+.navbar-social li > a:focus,
+.navbar-social li > a:active {
+    background: none;
+    line-height: 25px;
+    height: 55px;
+    padding: 0 5px 0 5px;
+    color: #616066;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    height: 26px;
+    margin: 15px 0 14px 0;
+}
+
+.navbar-nav li > a:hover {
+    line-height: 25px;
+    color: #fff;
+	background: #d14841;
+	margin: 15px 0 14px 0;
+	height: 26px;
+	border-radius: 50px;	
+}
+
+.navbar-in li > a:hover {
+    line-height: 50px;
+    color: #fff;
+	background: #393741;
+	border-radius: 0;
+	height: 55px;
+	margin: 0;	
+}
+
+.navbar-social li > a:hover {
+    color: #fff;
+    background: none;
+    border-radius: 0;
+    margin: 15px 0 14px 0;
+    opacity: 0.8;
+}
+
+.navbar-nav li.dropdown > a {
+	height: auto;
+    line-height: 55px;
+    text-transform: none;
+}
+
+.navbar-nav li.dropdown > a:active,
+.navbar-nav li.dropdown > a:focus {
+	background: #393741;
+    line-height: 55px;
+    height: auto;
+    padding: 0 15px 0 15px;
+    color: #616066;
+    text-shadow: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+
+.navbar-in .open > a, .navbar-in .open > a:focus {
+    background: #393741!important;
+    border-color: #fff;
+}
+
+.navbar-in .dropdown-menu li a,
+.navbar-in .dropdown-menu li a:focus,
+.navbar-in .dropdown-menu li a:active,
+.navbar-in .dropdown-menu li a:hover {
+	height: auto!important;
+	font-weight: normal;
+	line-height: 30px;
+	text-transform: none;
+}
+
+.coins-li {
+	display: inline-block;
+	background: #d14841;
+    line-height: 26px;
+    height: 26px;
+    padding: 0 15px 0 15px;
+    color: #fff;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.navbar-in li.avatar-li {
+	background: none;
+    line-height: 50px;
+    height: 55px;
+    padding: 0 15px 0 15px;
+    color: #616066;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar-in li.avatar-li > a {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-in li.avatar-li {
+	display: flex;
+	align-items: center;
+}
+
+.coins-li img {
+	margin-top: -2px;
+    height: 21px;
+    padding-right: 5px;
+}
+
+.navbar-in li a:hover .off-icon {
+	opacity: 0.8;
+}
+
+.navbar-in li a:hover .user-icon {
+	background: url(../images/user-hover.png) no-repeat center center;
+}
+
+.navbar-in li a:hover .mail-icon {
+	background: url(../images/mail-hover.png) no-repeat center center;
+}
+
+.navbar-in li a:hover .alert-icon {
+	background: url(../images/alert-hover.png) no-repeat center center;
+}
+
+.icon-bar {
+	background: #fff;
+}
+
+.hamburger {
+	position: absolute;
+	top: 4px;
+	right: 0;
+}
+
+@media (min-width: 991px) {
+    .coins-li {
+        margin: 15px 10px 14px 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .dropdown-menu {
+        background: none;
+        box-shadow: none;
+        border: none;
+        position: static;
+        width: 100%;
+    }
+
+    .dropdown-menu li a {
+        background: none;
+        width: 100%!important;
+    }
+
+    .dropdown-menu li a:hover {
+        background: none;
+        color: #fff;
+    }
+}
+
+@media (max-width: 991px) {
+    .coins-li {
+        margin: 15px auto 14px auto;
+    }
+
+    .navbar-in li.coins-li {
+        display: inline-block;
+        width: auto!important;
+        margin: 15px 0 14px 0;
+        text-align: center;
+    }
+
+    .navbar-in li.username {
+        height: auto;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+    .nav.navbar-nav li {
+        float: left;
+        width: 100%;
+        font-size: 15px!important;
+    }
+    .navbar-right {
+        float: left!important;
+    }
+    .nav.navbar-nav.navbar-right {
+        width: 100%;
+        height: auto!important;
+    }
+
+    /*navbar*/
+
+    .nav.navbar-nav.navbar-right {
+        margin-bottom: 25px;
+    }
+
+    .navbar-nav li {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-nav li a {
+        display: inline-block;
+        width: auto;
+    }
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .navbar-collapse {
+        box-shadow: none;
+    }
+
+    .nav.navbar-nav {
+        width: 100%;
+    }
+
+    /*navbar*/
+
+    .navbar-in li.avatar-li a {
+        display: inline-block;
+    }
+
+    .navbar-in li.avatar-li .avatar {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px){
+    .navbar-in .open .dropdown-menu > li > a {
+        padding: 5px 15px 5px 15px;
+    }
+
+    .navbar-in .open .dropdown-menu > li > a:hover {
+        line-height: 20px;
+        background: none;
+        color: #fff;
+    }
+}
